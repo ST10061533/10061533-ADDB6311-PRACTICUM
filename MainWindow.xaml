@@ -1,0 +1,18 @@
+﻿<Window x:Class="PracticumGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticumGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Beige">
+    <Grid>
+        <Label x:Name="label" Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Width="275" Height="40"/>
+        <Label x:Name="label_Copy" Content="-" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" FontSize="20" Width="275" Height="40"/>
+        <Label x:Name="label1" Content="DIVE EVENTS" FontStyle="Normal" FontWeight="ExtraBold" FontSize="20" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" FontSize="20" Content="Select The Required Output"  HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" FontSize="20" Content="1. sp_customer_details" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3_Copy" FontSize="20" Content="2. fn_Dive_Adjustments" HorizontalAlignment="Left" Margin="10,252,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
